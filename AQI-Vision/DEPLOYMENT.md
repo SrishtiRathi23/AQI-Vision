@@ -35,8 +35,6 @@ gcloud run deploy aqi-vision \
   --port 8080
 ```
 
-After deploy, `gcloud` prints the public service URL. Paste it into the README
-deployment badge and the application form's demo-link field.
 
 > The trained model (`models/best_model.pkl`) and processed features must exist
 > in the image. Either run `python train.py` before `docker build`, or run it as
