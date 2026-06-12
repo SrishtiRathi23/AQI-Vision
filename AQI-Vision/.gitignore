@@ -1,0 +1,19 @@
+# Data & artifacts
+data/raw/*.csv
+data/processed/*
+models/*.pkl
+models/*.json
+mlruns/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
